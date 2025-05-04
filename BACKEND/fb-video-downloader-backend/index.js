@@ -4,7 +4,12 @@ const { spawn } = require("child_process");
 const app = express();
 const PORT = 4002;
 
-app.use(cors("*"));
+app.use(
+  cors({
+    origin: "https://reeldown.galaxydev.pk",
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 app.post("/api/download", (req, res) => {
