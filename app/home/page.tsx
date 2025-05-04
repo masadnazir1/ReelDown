@@ -12,7 +12,7 @@ export default function HomePage() {
   const [isLoading,setisLoading]=useState(false)
 
 
-  const  API = 'https://reeldown.galaxydev.pk'
+  const  API = 'https://reeldownapi.galaxydev.pk'
 
   const handleDownload = async () => {
    
