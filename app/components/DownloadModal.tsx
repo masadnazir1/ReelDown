@@ -1,6 +1,6 @@
 import styles from "./DownloadModal.module.css";
 import { useEffect, useRef } from "react";
-import Image from "next/image";
+
 import { gsap } from "gsap";
 
 interface Format {
