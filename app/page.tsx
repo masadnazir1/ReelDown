@@ -19,7 +19,7 @@ export default function Home() {
         </p>
         <button className={styles.button} onClick={(()=>Router.push("/home"))}>Continue</button>
         <p className={styles.policy}>
-          By tapping 'Continue' you confirm that you agree with our privacy policy.
+          By tapping Continue you confirm that you agree with our privacy policy.
         </p>
       </div>
     </div>
