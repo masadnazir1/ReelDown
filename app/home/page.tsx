@@ -11,12 +11,15 @@ export default function HomePage() {
   const [videoMeta, setVideoMeta] = useState({ title: "", thumbnail: "" });
   const [isLoading,setisLoading]=useState(false)
 
+
+  const  API = 'https://reeldown.galaxydev.pk'
+
   const handleDownload = async () => {
    
     if (!videoUrl) return alert("Please paste a valid link");
     setisLoading(true)
     try {
-      const res = await fetch("http://localhost:5000/api/download", {
+      const res = await fetch(`${API}/api/download`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ url: videoUrl }),
