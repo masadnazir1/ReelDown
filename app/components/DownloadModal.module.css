@@ -1,0 +1,73 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 1000;
+}
+
+.modal {
+    background: white;
+    width: 100%;
+    max-width: 480px;
+    padding: 2rem 1rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+}
+
+.modalHeader {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.qualityGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.qualityBtn {
+    padding: 0.6rem 0.5rem;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    border: 2px solid #000;
+}
+
+.modalActions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.saveBtn,
+.watchBtn {
+    padding: 0.9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+.saveBtn {
+    background-color: #34c759;
+    color: white;
+}
+
+.watchBtn {
+    background-color: #007aff;
+    color: white;
+}

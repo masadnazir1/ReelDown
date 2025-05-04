@@ -1,0 +1,116 @@
+.page {
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 15px;
+}
+
+.header {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.downloadBtn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #34c759;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.downloadBtn:hover {
+    background-color: #28a745;
+}
+
+.modal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 2rem 1rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+}
+
+.modalHeader {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.qualityGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.qualityBtn {
+    padding: 0.6rem 0.5rem;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.qualityBtn:hover {
+    background-color: #e0e0e0;
+}
+
+.modalActions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.saveBtn,
+.watchBtn {
+    padding: 0.9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+.saveBtn {
+    background-color: #34c759;
+    color: white;
+}
+
+.watchBtn {
+    background-color: #007aff;
+    color: white;
+}
