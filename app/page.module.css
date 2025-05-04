@@ -9,12 +9,10 @@
 }
 
 .card {
-
+  margin-bottom: 20px;
   color: #fff;
-
   padding: 2rem 1.5rem;
   width: 100%;
-
   text-align: center;
 
 }

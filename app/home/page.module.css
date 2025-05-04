@@ -1,7 +1,6 @@
 .page {
     min-height: 100vh;
     background-color: #fff;
-    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
