@@ -27,6 +27,7 @@ export default function HomePage() {
 
       const data = await res.json();
       setisLoading(false)
+      setVideoUrl("")
 
       setFormats(data.formats || []);
       setVideoMeta({ title: data.title, thumbnail: data.thumbnail });
