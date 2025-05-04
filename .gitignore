@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+./BACKEND/fb-video-downloader-backend/node_modules
+
+/BACKEND/fb-video-downloader-backend/node_modules
